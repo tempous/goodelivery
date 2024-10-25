@@ -1,0 +1,6 @@
+@Goodelivery.API_HostAddress = http://localhost:5075
+
+GET {{Goodelivery.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

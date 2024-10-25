@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodelivery.API", "Goodelivery.API\Goodelivery.API.csproj", "{593C7C26-A975-4883-A3EC-A563B071E2FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F11E697-4426-4E32-B356-148B9FBDE184} = {8F11E697-4426-4E32-B356-148B9FBDE184}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodelivery.DAL", "Goodelivery.DAL\Goodelivery.DAL.csproj", "{AC8F918E-47B3-4705-AC4F-ADEDE484E377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodelivery.BLL", "Goodelivery.BLL\Goodelivery.BLL.csproj", "{8F11E697-4426-4E32-B356-148B9FBDE184}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC8F918E-47B3-4705-AC4F-ADEDE484E377} = {AC8F918E-47B3-4705-AC4F-ADEDE484E377}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodelivery.App", "Goodelivery.App\Goodelivery.App.csproj", "{A0BCDFFE-61BA-461A-A010-BD94F6C2C85F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{593C7C26-A975-4883-A3EC-A563B071E2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593C7C26-A975-4883-A3EC-A563B071E2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593C7C26-A975-4883-A3EC-A563B071E2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593C7C26-A975-4883-A3EC-A563B071E2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8F918E-47B3-4705-AC4F-ADEDE484E377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8F918E-47B3-4705-AC4F-ADEDE484E377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8F918E-47B3-4705-AC4F-ADEDE484E377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8F918E-47B3-4705-AC4F-ADEDE484E377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F11E697-4426-4E32-B356-148B9FBDE184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F11E697-4426-4E32-B356-148B9FBDE184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F11E697-4426-4E32-B356-148B9FBDE184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F11E697-4426-4E32-B356-148B9FBDE184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BCDFFE-61BA-461A-A010-BD94F6C2C85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BCDFFE-61BA-461A-A010-BD94F6C2C85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BCDFFE-61BA-461A-A010-BD94F6C2C85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BCDFFE-61BA-461A-A010-BD94F6C2C85F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
